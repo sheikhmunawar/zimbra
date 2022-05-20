@@ -1,0 +1,1 @@
+5 1 * * * /opt/backups/scripts/incremental_backupScript.sh /ESXi-NAS/surma/backupLogs.log 2>&1

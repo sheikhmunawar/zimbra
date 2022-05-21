@@ -1,1 +1,9 @@
-5 1 * * * /opt/backups/scripts/incremental_backupScript.sh /ESXi-NAS/surma/backupLogs.log 2>&1
+
+Kmail backup cron running
+1 0 * * * /opt/backups/scripts/incremental_backupScript.sh  >> /ESXi-NAS/kmail/backupLogs.log 2>&1
+
+Surma backu cron to schedule
+1 0 * * * /opt/backups/scripts/incremental_backupScript.sh  >> /ESXi-NAS/surma/backupLogs.log 2>&1
+
+
+
